@@ -1,0 +1,17 @@
+// dataenc.sublime-project
+{
+    "folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python_interpreter_path": "~/.virtualenvs/dataenc/bin/python",
+
+        "python_package_paths": [
+            "~/.virtualenvs/dataenc/lib/python2.7/site-packages/"
+            ]
+    }
+}

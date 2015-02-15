@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static "bootstrap/dist/css/bootstrap.css" %}">
+<link rel="stylesheet" href="{% static "font-awesome/css/font-awesome.css" %}">
+{% endblock styles %}
+{% block extra_styles %}
+<link rel="stylesheet" href="{% static "css/styles.css" %}">
+{% endblock extra_styles %}
+
+{% block header %}
+{% include "dataset/_base/header.html" %}
+{% endblock header %}
+
+{% block footer %}
+{% include "dataset/_base/footer.html" %}
+{% endblock footer %}
+
+{% block scripts %}
+<script src='jquery/dist/jquery.min.js'></script>
+<script src='bootstrap/dist/js/bootstrap.js' type="text/javascript" charset="utf-8"></script>
+{% endblock scripts %}
+
+{% block tracking %}
+{% include "dataset/_base/tracking.html" %}
+{% endblock tracking %}

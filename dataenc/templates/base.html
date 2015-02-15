@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}DataEnc{% endblock title %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="dataenc">
+    <meta name="author" content="dataenc">
+    {% block extra_head %} {% endblock extra_head %}
+    {% block styles %} {% endblock styles %}
+    {% block extra_styles %} {% endblock extra_styles %}
+  </head>
+
+  <body>
+    {% block header %} {% endblock header %}
+    {% block menu %} {% endblock menu %}
+    {% block content %} {% endblock content %}
+    {% block footer %} {% endblock footer %}
+    {% block scripts %} {% endblock scripts %}
+    {% block extra_scripts %} {% endblock extra_scripts %}
+    {% block tracking %} {% endblock tracking %}
+  </body>
+</html>

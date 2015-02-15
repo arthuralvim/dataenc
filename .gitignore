@@ -46,6 +46,16 @@ coverage.xml
 
 # Django stuff:
 *.log
+*.db
+*.log
+*.sqlite3
+.DS_Store
+.env
+dataenc/media/*
+dataenc/vendor/*
+!dataenc/media/media.empty
+dataenc/staticfiles/*
+!dataenc/staticfiles/static.empty
 
 # Sphinx documentation
 docs/_build/
